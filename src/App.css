@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 4rem;
+  color: black;
+  margin: 0;
+  --font-first: Helvetica, Arial, sans-Serif;
+  font-family: var(--font-first);
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--font-first);
+  color: black;
+}
+
+.container {
+    max-width: 50rem;
+    padding:  0 1rem;
+    margin: 0 auto;
+}
